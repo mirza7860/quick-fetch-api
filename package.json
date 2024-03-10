@@ -1,0 +1,24 @@
+{
+  "name": "quick-fetch-api",
+  "version": "2.0.0",
+  "description": "A simple and easy-to-use HTTP client for making requests.",
+  "main": "lib/EasyFetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "fetch"
+  ],
+  "author": "Mirza Sahil Alli Baig",
+  "github":"https://github.com/mirza7860",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./lib/EasyFetch.js",
+      "require": "./lib/EasyFetch.js"
+    },
+    "./lib/EasyFetch.js": "./lib/EasyFetch.js"
+  }
+}
