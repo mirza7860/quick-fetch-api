@@ -12,6 +12,7 @@ quick-fetch-api is a minimalistic HTTP client designed for effortless and asynch
 
 - **Easy Integration:** Simplifies making HTTP requests with a clean and intuitive interface.
 - **Asynchronous:** Utilizes asynchronous operations, allowing for efficient non-blocking requests.
+- **Loading State:** Provides a loading state indicator to manage asynchronous requests more effectively.
 - **Customizable:** Provides flexibility for customizing headers, methods, and request data.
 - **Higher-Level Abstraction:** Includes the `EasyFetch` class for a more user-friendly approach to handling HTTP requests.
 
